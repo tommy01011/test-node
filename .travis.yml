@@ -3,5 +3,5 @@ services:
   - docker
 
 script:
-  - docker built -t tomas/node .
-  - docker images tomas/node
+  - docker built -t node .
+  - docker images node
