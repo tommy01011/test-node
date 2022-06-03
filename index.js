@@ -8,6 +8,7 @@ const client = new MongoClient(url);
 
 // Database Name
 const dbName = 'testDB';
+console.log("hi")
 
 async function main() {
   await client.connect();
